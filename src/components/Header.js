@@ -165,7 +165,7 @@ const Header = () => {
           <br></br>
           <br></br>
           Looking forward to hearing from you. <br></br>
-          <br></br>Cheers to doing epic shit,<br></br> Swapna Sagar,<br></br>{" "}
+          <br></br>Cheers to doing epic shit,<br></br> Swapnasagar,<br></br>{" "}
           NftAlley.io
         </div>
       </div>
