@@ -1,0 +1,95 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+.header-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+.image-item img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.image-item:nth-child(2) img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding: 75px;
+}
+
+.header-describe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header-describe-contain {
+  font-size: 19px;
+  max-width: 600px;
+  font-weight: bolder;
+}
+.header-describe-contain span {
+  font-size: 31px;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.blue {
+  background: rgb(76, 50, 209);
+}
+.sky {
+  background: rgb(3, 180, 198);
+}
+.pink {
+  background: rgb(196, 86, 114);
+}
+.btn {
+  text-align: center;
+  width: 200px;
+  height: 75px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 20%;
+}
+.who-i-am-parent {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.who-i-am-parent > .child-1 > span {
+  font-size: 31px;
+  font-weight: bolder;
+}
+.child-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.child-2 > a {
+  margin: 10px;
+}
+.epic-child-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+.epic-child-2 > img {
+  margin: 10px;
+  width: 100%;
+  object-fit: cover;
+}
